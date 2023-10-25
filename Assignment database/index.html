@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD BOOK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <CENTER>
+    <form action="insert.php"method="post">
+        <h1>ADD A BOOK TO THE LIBRARY</h1>
+    <p>
+            <label>Title:</label>
+            <input type="text"name="title"required/>
+    </p>
+    <P>
+            <label>Author:</label>
+            <input type="text"name="author"required/>
+    </P>
+    <P>
+            <label>Publication Year:</label>
+            <input type="number"name="year"min="1900"max="2023"step="1"required/>   
+    </P>
+    <p>     
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+</CENTER>
+    </form>
+</body>
+</html>
